@@ -1,25 +1,24 @@
 
+     
 body {
-    background-image: url(img/background.jpg );
-    /*background: linear-gradient(#005b96,#03396c);*/
+    background-image: url(../img/background.jpg );
+    
     display: block;
     width: 100%;
 } 
-.content{
-    width: 75%;
-    background-color:#d6eaff;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
  header {
-   
-    width: 100%;
+   width: 90%;
+   margin-left: auto;
+    margin-right: auto;
+   max-width: 1080px;
     height: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #194c7f;
+    background-color: #000066;
     border: 1px solid #216978 ;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -31,22 +30,22 @@ body {
     font-family: "String family";
     text-align: center;
     color: #2d5fc4;
-    background-color: #63b8ff;
+    background-color: white;
     border: 1px solid #216978 ;
-    border-radius: 10px;
-    font-size: 30px;
-    height: 80px;
+    border-radius: 50px;
+    font-size:1.875em; /*30px*/
+    height: 100px;
     box-sizing: border-box;
-    color: #2d5fc4;
+    
     padding: 10px 20px;
 }
 .navigation {
     display: flex;
     justify-content: flex-start;
-    background-color: #63b8ff;
+    background-color: white;
     border: 1px solid #216978 ;
     border-radius: 10px;
-    font-size: 15px;
+    
     box-sizing: border-box;
    
 }
@@ -62,7 +61,7 @@ li a {
     padding:10px 30px;
     text-decoration: none;
     font-family: "String family";
-    font-size: 40px;
+    font-size: 2.5em;/*40px*/
     box-sizing: border-box;
     border-radius: 10px; 
     cursor: pointer;
@@ -73,16 +72,18 @@ li a:hover:not(.active) {
 }
 .block{
    margin-top: 50px;
-   width: 100%;
+   /*width: 100%;*/
  }
- .block-container {
-    margin-top: 50px;
-    width: 100%;
-    display: block;
-}
-.block-container_family{
+ .block-container_family {
     display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   width: 90%;
+   margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+   ;
+    background-color:#d6eaff;
+     border-radius: 10px;
 
 }
 .block-container_img {
@@ -90,13 +91,17 @@ li a:hover:not(.active) {
    
     border: 1px solid #216978;
     border-radius: 25px;
-    width: 40%;
+    width: 50%;
     height: 300px;
+    
+    max-width: 100%;
+    margin: 20px;
     
 }
 .block-container_family p{
     font-family: "String family";
-    font-size: 20px;
+    font-size: 1.25em; /*20px*/
+    width: 50%;
     color: white;
     height: 200px;
     border-radius: 50px;
@@ -105,12 +110,24 @@ li a:hover:not(.active) {
     padding: 10px 30px;
     margin: 20px;
 }
+ .block-container {
+    
+    display: block;
+    width: 90%;
+   margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+    background-color:#d6eaff;
+     margin-top: 50px;
+      border-radius: 10px;
+}
+
  
 .block-container_name {
     text-align: center;
     color: #2d5fc4;
     font-family: "String family";
-    font-size: 50px;
+    font-size: 3.125em;/*50px*/
     height: 100px;
    
 }
@@ -118,16 +135,16 @@ li a:hover:not(.active) {
     
     display: flex;
    justify-content: space-around;
-    margin: 10px;
+   /* margin: 10px;*/
+    
 
 }
 
 img  {
     width: 25%;
-    height: 600px;
-     /*margin: 0 30px;*/
-     /*border:1px solid #216978;
-    border-radius: 50px;*/
+    height: auto;
+    max-width: 100%;
+     
      
     
 }
@@ -137,7 +154,7 @@ img  {
  }
 .text_violin p {
     font-family: "String family";
-    font-size: 20px;
+    font-size: 1.25em; /*20px*/
     color: white;
     border: 1px solid #216978;
     height: 150px;
@@ -153,7 +170,7 @@ img  {
  }
 .text_viola p {
     font-family: "String family";
-    font-size: 20px;
+    font-size: 1.25em; /*20px*/
     color: white;
     height: 150px;
     border-radius: 50px;
@@ -162,24 +179,57 @@ img  {
     padding: 10px 30px;
     margin: 20px;
 }
+.text_cello{
+     width: 25%;
+     display: block;
+}
+.text_cello p {
+    font-family: "String family";
+    font-size: 1.25em; /*20px*/
+    color: white;
+    height: 150px;
+    border-radius: 15px 50px;
+    background-color:#660000;
+    text-align: left;
+    padding: 10px 30px;
+    margin: 20px;
+}
+.text_contrabass{
+      width: 25%;
+     display: block;
+}
+.text_contrabass p {
+    font-family: "String family";
+    font-size: 1.25em; /*20px*/
+    color: white;
+    height: 150px;
+    border-radius: 50px;
+    background-color:#4c4c4c;
+    text-align: left;
+    padding: 10px 30px;
+    margin: 20px;
+}
 
 .about{
-    display: flex;
-}
-.about p{
-     width: 700px;
+    
+    font-family: "String family";
+    font-size: 1.25em; /*20px*/
+    width: 700px;
     height: 200px;
      border-radius: 30px;
       margin: auto;
 }
 @font-face {
    font-family: "String family";
-   src: url(selima_.otf);
+   src: url(font/selima_.otf);
 }
  iframe{
      width: 20%;
      height: 200px;
-      
-      /*border: 1px solid;
-      border-radius: 15px;*/
-     }
+}
+/*@media (max-width: 1500px){
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+  }*/
