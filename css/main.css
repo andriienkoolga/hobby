@@ -1,14 +1,13 @@
-
      
-body {
+/*body {
     background-image: url(../img/background.jpg );
     
     display: block;
     width: 100%;
 } 
+*/
 
-
- header {
+ /*header {
    width: 90%;
    margin-left: auto;
     margin-right: auto;
@@ -23,23 +22,23 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     
-}
-.logo {
+}*/
+/*.logo {
     display: flex;
     flex-direction: column;
-    font-family: "String family";
+    font-family: @font-family;
     text-align: center;
     color: #2d5fc4;
     background-color: white;
     border: 1px solid #216978 ;
     border-radius: 50px;
-    font-size:1.875em; /*30px*/
+    font-size:1.875em; /*30px
     height: 100px;
     box-sizing: border-box;
     
     padding: 10px 20px;
-}
-.navigation {
+}*/
+/*.navigation {
     display: flex;
     justify-content: flex-start;
     background-color: white;
@@ -48,33 +47,33 @@ body {
     
     box-sizing: border-box;
    
-}
-li {
+}*/
+/*li {
    display: inline-block;
-    }
+    }*/
 
-li a {
+/*li a {
 
     display: block;
     color: #2d5fc4;
     text-align: center;
     padding:10px 30px;
     text-decoration: none;
-    font-family: "String family";
-    font-size: 2.5em;/*40px*/
+    font-family: @font-family;
+    font-size: 2.5em;/*40px
     box-sizing: border-box;
     border-radius: 10px; 
     cursor: pointer;
-}
+}*/
 
-li a:hover:not(.active) {
+/*li a:hover:not(.active) {
     background-color: #87ceff;
-}
-.block{
+}*/
+/*.block{
    margin-top: 50px;
-   /*width: 100%;*/
- }
- .block-container_family {
+   /*width: 100%;
+ }*/
+ /*.block-container_family {
     display: flex;
    justify-content: space-between;
    width: 90%;
@@ -82,11 +81,11 @@ li a:hover:not(.active) {
     margin-right: auto;
     max-width: 1080px;
    ;
-    background-color:#d6eaff;
+    background-color: @color;
      border-radius: 10px;
 
-}
-.block-container_img {
+}*/
+/*.block-container_img {
     display: block;
    
     border: 1px solid #216978;
@@ -97,27 +96,28 @@ li a:hover:not(.active) {
     max-width: 100%;
     margin: 20px;
     
-}
-.block-container_family p{
-    font-family: "String family";
-    font-size: 1.25em; /*20px*/
+}*/
+/*.block-container_family p{
+    font-family:@font-family ;
+   
+    font-size: 1.25em; /*20px
     width: 50%;
     color: white;
     height: 200px;
     border-radius: 50px;
-    background-color:#143d66;
+    background-color: #143d66;
     text-align: left;
     padding: 10px 30px;
     margin: 20px;
-}
- .block-container {
+}*/
+ /*.block-container {
     
     display: block;
     width: 90%;
    margin-left: auto;
     margin-right: auto;
     max-width: 1080px;
-    background-color:#d6eaff;
+    background-color:@color;
      margin-top: 50px;
       border-radius: 10px;
 }
@@ -126,16 +126,16 @@ li a:hover:not(.active) {
 .block-container_name {
     text-align: center;
     color: #2d5fc4;
-    font-family: "String family";
-    font-size: 3.125em;/*50px*/
+    font-family: @font-family;
+    font-size: 3.125em;/*50px
     height: 100px;
    
-}
-.block-conteiner_dis{
+}*/
+/*.block-conteiner_dis{
     
     display: flex;
    justify-content: space-around;
-   /* margin: 10px;*/
+   /* margin: 10px;
     
 
 }
@@ -147,14 +147,14 @@ img  {
      
      
     
-}
-.text_violin{
+}*/
+/*.text_violin{
      width: 25%;
      display: block;
  }
 .text_violin p {
-    font-family: "String family";
-    font-size: 1.25em; /*20px*/
+    font-family: @font-family;
+    font-size: 1.25em; /*20px
     color: white;
     border: 1px solid #216978;
     height: 150px;
@@ -163,14 +163,14 @@ img  {
     text-align: left;
     padding: 10px 30px;
     margin: 20px;
-}
-.text_viola{
+}*/
+/*.text_viola{
      width: 25%;
      display: block;
  }
 .text_viola p {
-    font-family: "String family";
-    font-size: 1.25em; /*20px*/
+    font-family: @font-family;
+    font-size: 1.25em; /*20px
     color: white;
     height: 150px;
     border-radius: 50px;
@@ -178,14 +178,14 @@ img  {
     text-align: left;
     padding: 10px 30px;
     margin: 20px;
-}
-.text_cello{
+}*/
+/*.text_cello{
      width: 25%;
      display: block;
 }
 .text_cello p {
-    font-family: "String family";
-    font-size: 1.25em; /*20px*/
+    font-family: @font-family;
+    font-size: 1.25em; /*20px
     color: white;
     height: 150px;
     border-radius: 15px 50px;
@@ -193,14 +193,14 @@ img  {
     text-align: left;
     padding: 10px 30px;
     margin: 20px;
-}
-.text_contrabass{
+}*/
+/*.text_contrabass{
       width: 25%;
      display: block;
 }
 .text_contrabass p {
-    font-family: "String family";
-    font-size: 1.25em; /*20px*/
+    font-family: @font-family;
+    font-size: 1.25em; /*20px
     color: white;
     height: 150px;
     border-radius: 50px;
@@ -208,25 +208,25 @@ img  {
     text-align: left;
     padding: 10px 30px;
     margin: 20px;
-}
+}*/
 
-.about{
+/*.about{
     
-    font-family: "String family";
-    font-size: 1.25em; /*20px*/
+    font-family: @font-family;
+    font-size: 1.25em; /*20px
     width: 700px;
     height: 200px;
      border-radius: 30px;
       margin: auto;
-}
-@font-face {
-   font-family: "String family";
-   src: url(font/selima_.otf);
-}
- iframe{
+}*/
+/*@font-face {
+   font-family: @font-family;
+   src: url(fonts/selima_.otf);
+}*/
+ /*iframe{
      width: 20%;
-     height: 200px;
-}
+     height: 300px;
+}*/
 /*@media (max-width: 1500px){
     header{
         display: flex;
